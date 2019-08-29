@@ -1,5 +1,7 @@
 #python3.7
-#0rg1s pwns th1s
+#0rg1s wrote th1s
+#sheet metal minimum flange calcu;ator, theorical results
+#are the same as hole edge to flange before deforming.
 #Hole/Flange distance calculator
 
 def holedge():
