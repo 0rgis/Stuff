@@ -1,16 +1,13 @@
-"""
-num1 = input("enter a number:")
-num2 = input("enter another number:")
-result = float(num1) * float(num2)
-print (result)
-"""
-"""
-#metal = input("Enter Material type: ")
-thick = float(input("Enter material thickness: "))
-allow = .447
-result = (thick * allow) * 2
-print (result)
-"""
+###num1 = input("enter a number:")
+###num2 = input("enter another number:")
+###result = float(num1) * float(num2)
+###print (result)
+ 
+###metal = input("Enter Material type: ")
+###thick = float(input("Enter material thickness: "))
+###allow = .447
+###result = (thick * allow) * 2
+###print (result)
 
 #start hole to fold edge script
 
