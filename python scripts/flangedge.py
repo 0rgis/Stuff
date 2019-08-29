@@ -1,8 +1,12 @@
 #python3.7
-#0rg1s wrote th1s
-#sheet metal minimum flange calcu;ator, theorical results
-#are the same as hole edge to flange before deforming.
+
 #Hole/Flange distance calculator
+
+#        0rg1s wrote th1s script
+#s heet metal minimum flange calculator, theorical results
+# are the same as hole edge to flange before deforming.
+# i have yet to test this theoretcal forula in real world env.
+
 
 def holedge():
     thk = float(input("Enter Material thickness:  "))
