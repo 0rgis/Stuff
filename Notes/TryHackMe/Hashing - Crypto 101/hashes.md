@@ -1,3 +1,5 @@
+
+
 ---
 
 ## Hashes
@@ -47,3 +49,7 @@
 
 
 [tips frome this site](https://fthcyber.com/2020/09/28/hashing-crypto-101-writeup-tryhackme/)
+
+
+*to do*
+replace or add text for images as github doesnot show the imgs, add the result in blockcode under image
