@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "markdown-cheat-sheet.md",
+            "file": "gittest.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "markdown-cheat-sheet.md",
+                "file": "gittest.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,11 +99,11 @@
   },
   "active": "4c1650ce92553143",
   "lastOpenFiles": [
+    "Untitled.md",
     "markdown-cheat-sheet.md",
     "20 Nmap.md",
     "10 Easy Peasy.md",
     "markdown-cheat-sheet 1.md",
-    "Untitled.md",
     "Easy Peasy.md"
   ]
 }
