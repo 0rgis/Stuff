@@ -27,4 +27,7 @@ sheet metal stamping counter sink pre pierce calculator
 6. subd0my -  script i modded to my taste, think its still broke
 7. web_tut -  i have no idea what this is lol
 
+## Notes
+CTF & course notes i started but now on notion
+
 Thats it, nuthin special, yet.
