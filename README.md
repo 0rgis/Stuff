@@ -1,7 +1,7 @@
 # Stuff
 
 
-My collection of stuffs, simple scripys to make my life easier, the tmp monitor was for my Rpi3 as i ran kali on it.
+My collection of stuffs, simple scripts to make my life easier, the tmp monitor was for my Rpi3 as i ran kali on it.
 These are very basic starting off kinda shit :-)
 
 ## Scripts
