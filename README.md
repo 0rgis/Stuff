@@ -19,12 +19,12 @@ Password lists i've collated that are freely available, i dont know why? lol
 
 i touched on python and made a decent tool, i still cant mind how i done it, but its mine, from scratch
 sheet metal stamping counter sink pre pierce calculator
-1. 4hrpython 4 hr python course i have on plec server tasks
-2. bend_allow not even started, intention no calc the min bend size for a given material & thickness
-3. csk v1 & 2 as above
-4. fkangeedge is flange to hole or slot edge calc that works out min distance b4 distortion, WIP
-5. get-pip was for my Rpi3 build, problems, dont ask
-6. subd0my script i modded to my taste, think its still broke
-7. web_tut i have no idea what this is lol
+1. 4hrpython -  4 hr python course i have on plex server, task i think?? canny mind
+2. bend_allow -  not even started, intention no calc the min bend size for a given material & thickness
+3. csk v1 & 2 -  as above
+4. flangedge -  is flange to hole or slot edge calc that works out min distance b4 distortion, WIP
+5. get-pip -  was for my Rpi3 build, problems, dont ask
+6. subd0my -  script i modded to my taste, think its still broke
+7. web_tut -  i have no idea what this is lol
 
 Thats it, nuthin special, yet.
