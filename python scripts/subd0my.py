@@ -2,16 +2,16 @@
 #subdomain scanner V1.5b
 
 import requests
-print("   ___            _               ")
-print("  / _ \ _ __ __ _/ |___ _ __ ___  ")
-print(" | | | | '__/ _` | / __| '_ ` _ \ ")
-print(" | |_| | | | (_| | \__ \ | | | | |")
-print("  \___/|_|  \__, |_|___/_| |_| |_|")
-print("            |___/                 ")
+print("   ___            _      ")
+print("  / _ \ _ __ __ _/ |___  ")
+print(" | | | | '__/ _` | / __| ")
+print(" | |_| | | | (_| | \__ \ ")
+print("  \___/|_|  \__, |_|___/ ")
+print("            |___/        ")
 print("")
 print("")
 print("")
-print ("subd0my (V1.5b), by 0rg1sm")
+print ("subd0my (V1.5b), by 0rg1s")
 print ("")
 print ("")
 print ("!!!! MAKE SURE INPUT FILE IS IN WORKING DIRECTORY !!!!")
