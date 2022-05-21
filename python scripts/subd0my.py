@@ -9,11 +9,7 @@ print("\033[1;30;40m\__ \ |_| | |_) | (_| | |_| | | | | | | |_| |")
 print("\033[1;30;40m|___/\__,_|_.__/ \__,_|\___/|_| |_| |_|\__, |")
 print("\033[1;30;40m                                        |___/")
 print("")
-print("")
-print("")
-print("")
 print("\033[1;31;40m!!!! MAKE SURE INPUT FILE IS IN WORKING DIRECTORY !!!!")
-print("")
 print("")
 
 #the domain to scan for subdomains
