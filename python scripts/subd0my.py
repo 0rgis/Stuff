@@ -2,12 +2,12 @@
 #subdomain scanner
 
 import requests
-print("\033[1;36;40m           _         _  ___                  ")
-print("\033[1;36;40m ___ _   _| |__   __| |/ _ \ _ __ ___  _   _ ")
-print("\033[1;36;40m/ __| | | | '_ \ / _` | | | | '_ ` _ \| | | |")
-print("\033[1;36;40m\__ \ |_| | |_) | (_| | |_| | | | | | | |_| |")
-print("\033[1;36;40m|___/\__,_|_.__/ \__,_|\___/|_| |_| |_|\__, |")
-print("\033[1;36;40m                                        |___/")
+print("\033[1;30;40m           _         _  ___                  ")
+print("\033[1;30;40m ___ _   _| |__   __| |/ _ \ _ __ ___  _   _ ")
+print("\033[1;30;40m/ __| | | | '_ \ / _` | | | | '_ ` _ \| | | |")
+print("\033[1;30;40m\__ \ |_| | |_) | (_| | |_| | | | | | | |_| |")
+print("\033[1;30;40m|___/\__,_|_.__/ \__,_|\___/|_| |_| |_|\__, |")
+print("\033[1;30;40m                                        |___/")
 print("")
 print("")
 print("")
@@ -17,12 +17,9 @@ print("")
 print("")
 
 #the domain to scan for subdomains
-domain = input ("\033[1;33;40mEnter Domain Name:\033[1;37;40m ")
-#domain = "google.com" #use user input
-print ("")
+domain = input ("\033[1;34;40mEnter Domain Name:\033[1;37;40m ")
 # read all subdomains (from subdomain list, place in same folder)
-print ("")
-list = input("\033[1;33;40mEnter List Name :\033[1;37;40m ")
+list = input("\033[1;34;40mEnter List Name :\033[1;37;40m ")
 print ("")
 file = open(list)#file must be in same folderrere
 # read all content
@@ -44,15 +41,9 @@ for subdomain in subdomains:
     else:
         print("\033[1;32;40m[+] Discovered subdomain: \n", url)
         # create a new text file#
-        #text_file = open("results.txt", "a")
+        text_file = open("results.txt", "a")
         # write to this file some text#
-        #text_file.write(url)
+        text_file.write(url)
 
-
-
-print ("")
-print ("To Do List")
-print ("    - output to file")
-print ("    - port scan")
 print ("")
 
