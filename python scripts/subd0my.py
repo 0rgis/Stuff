@@ -2,29 +2,33 @@
 #subdomain scanner V1.5b
 
 import requests
-#print("   ___            _      ")
-#print("  / _ \ _ __ __ _/ |___  ")
-#print(" | | | | '__/ _` | / __| ")
-#print(" | |_| | | | (_| | \__ \ ")
-#print("  \___/|_|  \__, |_|___/ ")
-#print("            |___/        ")
-#print("")
-#print("")
+# print("\033[1;36;40m   ___            _      ")
+# print("\033[1;36;40m  / _ \ _ __ __ _/ |___  ")
+# print("\033[1;36;40m | | | | '__/ _` | / __| ")
+# print("\033[1;36;40m | |_| | | | (_| | \__ \ ")
+# print("\033[1;36;40m  \___/|_|  \__, |_|___/ ")
+# print("\033[1;36;40m            |___/        ")
+print("\033[1;36;40m           _         _  ___                  ")
+print("\033[1;36;40m ___ _   _| |__   __| |/ _ \ _ __ ___  _   _ ")
+print("\033[1;36;40m/ __| | | | '_ \ / _` | | | | '_ ` _ \| | | |")
+print("\033[1;36;40m\__ \ |_| | |_) | (_| | |_| | | | | | | |_| |")
+print("\033[1;36;40m|___/\__,_|_.__/ \__,_|\___/|_| |_| |_|\__, |")
+print("\033[1;36;40m                                        |___/")
 print("")
-print ("subd0my (V1.5b), Sub Domain Scanner by 0rgis")
-print ("")
-print ("")
-print ("!!!! MAKE SURE INPUT FILE IS IN WORKING DIRECTORY !!!!")
-print ("")
-print ("")
+print("")
+print("")
+print("")
+print("\033[1;31;40m!!!! MAKE SURE INPUT FILE IS IN WORKING DIRECTORY !!!!")
+print("")
+print("")
 
 #the domain to scan for subdomains
-domain = input ("Enter Domain Name: ")
+domain = input ("\033[1;33;40mEnter Domain Name:\033[1;37;40m ")
 #domain = "google.com" #use user input
 print ("")
 # read all subdomains (from subdomain list, place in same folder)
 print ("")
-list = input("Enter List Name : ")
+list = input("\033[1;33;40mEnter List Name :\033[1;37;40m ")
 print ("")
 file = open(list)#file must be in same folderrere
 # read all content
@@ -44,7 +48,7 @@ for subdomain in subdomains:
         # if the subdomain does not exist, just pass, print nothing
         pass
     else:
-        print("[+] Discovered subdomain:", url)
+        print("\033[1;32;40m[+] Discovered subdomain: \n", url)
         # create a new text file#
         #text_file = open("results.txt", "a")
         # write to this file some text#
@@ -57,3 +61,4 @@ print ("To Do List")
 print ("    - output to file")
 print ("    - port scan")
 print ("")
+
