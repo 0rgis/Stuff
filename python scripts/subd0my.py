@@ -11,7 +11,7 @@ import requests
 #print("")
 #print("")
 print("")
-print ("subd0my (V1.5b), by 0rgis")
+print ("subd0my (V1.5b), Sub Domain Scanner by 0rgis")
 print ("")
 print ("")
 print ("!!!! MAKE SURE INPUT FILE IS IN WORKING DIRECTORY !!!!")
