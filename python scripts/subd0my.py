@@ -9,22 +9,21 @@ print("\033[1;30;40m\__ \ |_| | |_) | (_| | |_| | | | | | | |_| |")
 print("\033[1;30;40m|___/\__,_|_.__/ \__,_|\___/|_| |_| |_|\__, |")
 print("\033[1;30;40m                                        |___/")
 print("")
-print("\033[1;31;40m!!!! MAKE SURE INPUT FILE IS IN WORKING DIRECTORY !!!!")
 print("")
 
 #the domain to scan for subdomains
 domain = input ("\033[1;34;40mDomain Name :\033[1;37;40m ")
 # read all subdomains (from subdomain list, place in same folder)
-list = input("\033[1;34;40mWordList Name :\033[1;37;40m ")
+list = input("\033[1;34;40mFull Path To Wordlist :\033[1;37;40m ")
 print ("")
-file = open(list)#file must be in same folderrere
+
+file = open(list)#path to file
 # read all content
 content = file.read()
 # split by new lines
 subdomains = content.splitlines()
 
 #brute forcing the sub doms
-
 for subdomain in subdomains:
     # construct the url
     url = f"http://{subdomain}.{domain}"
@@ -39,7 +38,7 @@ for subdomain in subdomains:
         # create a new text file#
         text_file = open("results.txt", "a")
         # write to this file some text#
-        text_file.write(url)
+        text_file.write(url+"\n")
 
 print ("")
 
