@@ -1,5 +1,5 @@
-#python 3
-#subdomain scanner
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
 import requests
 print("\033[1;30;40m           _         _  ___                  ")
