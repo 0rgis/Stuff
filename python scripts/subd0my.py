@@ -12,10 +12,10 @@ print("")
 print("")
 
 #the domain to scan for subdomains
-filename = input ("\033[1;34;40mResults Filename? :\033[1;37;40m")
 domain = input ("\033[1;34;40mDomain Name :\033[1;37;40m ")
 # read all subdomains (from subdomain list, place in same folder)
 list = input("\033[1;34;40mFull Path To Wordlist :\033[1;37;40m ")
+filename = input ("\033[1;34;40mOutput Filename? :\033[1;37;40m")
 print ("")
 file = open(list)#path to file
 # read all content
