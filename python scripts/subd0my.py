@@ -17,9 +17,9 @@ print("")
 print("")
 
 #the domain to scan for subdomains
-domain = input ("\033[1;34;40mEnter Domain Name:\033[1;37;40m ")
+domain = input ("\033[1;34;40mDomain Name :\033[1;37;40m ")
 # read all subdomains (from subdomain list, place in same folder)
-list = input("\033[1;34;40mEnter List Name :\033[1;37;40m ")
+list = input("\033[1;34;40mWordList Name :\033[1;37;40m ")
 print ("")
 file = open(list)#file must be in same folderrere
 # read all content
