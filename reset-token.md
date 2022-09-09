@@ -1,23 +1,32 @@
-# Reset Password Guide[wip]
+# Register & Reset Guide
+###### tags: `guide, hackerats, password`
 
-###### tags: `hackerats`
+## Registering on hackerats
+When you first register on hackerats you will see the usual info required for login.
 
-## Reset token
+![](https://i.imgur.com/11s93rw.png)
 
-[1] Go to "user panel"
+Next you will see a pop up showing you your password reset token, please copy this to a safe place, **this token is the <u>only</u> way you can reset your password if you forget it.**
 
-![](https://i.imgur.com/wIZmwNb.png)
+![](https://i.imgur.com/Y4on8Cb.png)
 
-[2] your reset token will be shown, please be sure to **take note** of this because you will need it if you forget your password.
+Once you have done this continue to login as normal and head over to you "User Panel" where you can set up links to your guthub or blog or twitter etc.
 
-![](https://i.imgur.com/D1NmB2E.png)
+Also within this menu you can click on `` "Your Password Reset Token is: Show token"
+``
+Here you can back up your reset token if you didnt on registration, this token never changes, so as long as you back it up you will be fine or even better, do not forget your password!  
 
-[3] click on "Reset" at bottom of the page
+#
+
+# How To Reset Password
+[1] If you did not take note of your reset token, do not continue.
+
+[2] To reset pass click on "Reset" near bottom of page
 
 ![](https://i.imgur.com/jFEMYR1.png)
 
-[4] You will see the below screen just fill in the blanks & click "Login"
+[3] You will see the below screen just fill in the blanks & click "Login"
 
-![](https://i.imgur.com/6JOom07.png)
+![](https://i.imgur.com/6JOom07.png)  
 
-Bob's your aunty, job done young warrior, altho i fear that the reset pass does not work for orgis test! lets see who reads this all the way thru!
+Go login and get your cheese!!!
