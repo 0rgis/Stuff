@@ -5,8 +5,12 @@
 # THIS IS A PLACE HOLDER FOR THE FAQ
 *Combination of all guides we have*
 
+## Register
+place holder
+## Reset
+place holder
 
-
+##start welcome.php
 ## Items/Inventory   
 
 Right now we have a list of items available for you, we are still balancing these but this should be the general idea for now as more items get added! We recommend saving and stacking them!
